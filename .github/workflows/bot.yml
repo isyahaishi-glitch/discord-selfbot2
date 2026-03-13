@@ -20,9 +20,6 @@ jobs:
           pip uninstall discord.py -y
           pip install discord.py-self python-dotenv
 
-      - name: Install dependencies
-        run: pip install discord.py==1.7.3 python-dotenv
-
       - name: Create .env
         run: echo "bot1=${{ secrets.BOT1 }}" > .env
 
