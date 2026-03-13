@@ -52,7 +52,7 @@ msgs ={
 
 
 
-bot = commands.Bot(command_prefix="!", self_bot=True)
+bot = commands.Bot(command_prefix="!")
 
 async def send_msg(d):
     await asyncio.sleep(5)
